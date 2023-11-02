@@ -16,8 +16,8 @@ body{
     cursor: url(recipes/images/pizza-cutter.png), auto;
     background-image: url(recipes/images/recipe_home1.png);
     height: 100%;
-    background-position: fill;
-    background-size: fill;
+    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -75,12 +75,6 @@ li :hover{
     background-color: transparent;
     text-decoration: none;
   }
-
-  .background{
-    background-image: url(recipes/images/recipe_home1.png);
-    
-    
-}
 
 button{
     background-color: yellow; 
