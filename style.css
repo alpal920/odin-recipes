@@ -10,26 +10,26 @@
     gap: 41px;
   }
 
-body{
+body {
     font-size: 24px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     cursor: url(recipes/images/pizza-cutter.png), auto;
-    background-image: url(recipes/images/recipe_home1.png);
+    background-color: #CEE5F7;
     height: 100%;
     background-position: center;
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
 }
 
-ul {
+ul, ol{
     border: 5px solid black;
     padding-right: 0px;
-    padding-left: 28px;
+    padding-left: 50px;
     width: auto;
     border-radius: 20px;
   }
 
-li :hover{
+ul :hover, ol :hover{
     background-color: yellow;
     font-weight: bold;
     cursor: url(recipes/images/pizza-cursor.png), auto;
@@ -43,6 +43,7 @@ li :hover{
     line-height: 50px;
     text-transform: uppercase;
     font-weight: 800;
+    color: rgb(11, 43, 183);
   }
   .logolocation {
     position: relative;
@@ -58,7 +59,7 @@ li :hover{
   }
 
 
-  .navigation {
+  .body * {
     position: absolute;
     top: 94px;
     left: 72px;
